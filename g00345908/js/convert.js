@@ -31,3 +31,15 @@ function euroToYen(){
   cansole.log(message);
   document.getElementById("resultsentence").innerHTML = message;
 }
+
+//euro to bitcoin conversion
+
+function euroToBitcoin(){
+
+  var amount = parseInt(document.getElementById("value1").value);
+
+  var Bitcoin = amount * 0.00082;
+  var message = amount + ' euros converts to ' + Bitcoin + ' Bitcoin.';
+  cansole.log(message);
+  document.getElementById("resultsentence").innerHTML = message;
+}
