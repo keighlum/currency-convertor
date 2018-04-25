@@ -19,3 +19,15 @@ function euroToDollar(){
   cansole.log(message);
   document.getElementById("resultsentence").innerHTML = message;
 }
+
+//euro to yen conversion
+
+function euroToYen(){
+
+  var amount = parseInt(document.getElementById("value1").value);
+
+  var Yen = amount * 121.12;
+  var message = amount + ' euros converts to ' + Yen + ' Yen.';
+  cansole.log(message);
+  document.getElementById("resultsentence").innerHTML = message;
+}
