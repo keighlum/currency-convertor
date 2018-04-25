@@ -8,3 +8,14 @@ function euroToPounds(){
   document.getElementById("resultsentence").innerHTML = message;
 
 }
+//euro to dollar conversion
+
+function euroToDollar(){
+
+  var amount = parseInt(document.getElementById("value1").value);
+
+  var Dollar = amount * 1.06;
+  var message = amount + ' euros converts to ' + Dollar + ' US Dollar.';
+  cansole.log(message);
+  document.getElementById("resultsentence").innerHTML = message;
+}
